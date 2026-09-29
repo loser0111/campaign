@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/platform/activity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform/activity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform/merchant/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform/merchant/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform/order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform/order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform/product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform/product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform/user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platform/user/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

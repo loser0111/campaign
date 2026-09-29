@@ -1,0 +1,30 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: platform-activity
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 面向 MySQL 5.6/5.7：禁用 SSL、显式指定时区与字符集
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:campaign}?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:root}
+    hikari:
+      pool-name: platform-activity-pool
+      minimum-idle: 5
+      maximum-pool-size: 20
+      connection-timeout: 30000
+      idle-timeout: 600000
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: org.campaign.platform.activity.entity
+  configuration:
+    map-underscore-to-camel-case: true
+    # 兼容 MySQL：避免插入 null 时 JdbcType OTHER 报错
+    jdbc-type-for-null: 'null'
+
+logging:
+  level:
+    org.campaign.platform.activity.mapper: debug

@@ -1,0 +1,3 @@
+org\campaign\platform\order\mapper\DemoMapper.class
+org\campaign\platform\order\controller\DemoController.class
+org\campaign\platform\order\OrderApplication.class

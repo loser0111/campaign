@@ -1,0 +1,3 @@
+org\campaign\platform\activity\mapper\DemoMapper.class
+org\campaign\platform\activity\controller\DemoController.class
+org\campaign\platform\activity\ActivityApplication.class

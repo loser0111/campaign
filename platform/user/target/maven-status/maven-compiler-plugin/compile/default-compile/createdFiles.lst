@@ -1,0 +1,7 @@
+org\campaign\platform\user\common\Const.class
+org\campaign\platform\user\service\UserBaseService.class
+org\campaign\platform\user\entity\UserBase.class
+org\campaign\platform\user\domain\model\UserBase.class
+org\campaign\platform\user\UserApplication.class
+org\campaign\platform\user\controller\UserBaseController.class
+org\campaign\platform\user\infra\mysql\mapper\UserBaseMapper.class
